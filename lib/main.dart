@@ -702,8 +702,8 @@ class MyApp extends StatelessWidget {
                                 image: AssetImage(
                                   'assets/caasi/caasigala.jpeg',
                                 ),
-                                width: 700,
-                                height: 250,
+                                width: 500,
+                                height: 230,
                                 fit: BoxFit.fill,
                               ),
                             ),
