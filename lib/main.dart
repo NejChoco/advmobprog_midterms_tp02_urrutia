@@ -32,9 +32,7 @@ class MyApp extends StatelessWidget {
                 child: Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: NetworkImage(
-                        'https://hips.hearstapps.com/hmg-prod/images/the-albatross-square-66228c1a8a39b.jpg?crop=1.00xw:0.502xh;0,0.236xh&resize=1200:*',
-                      ),
+                      image: AssetImage('assets/backgrounds/jensen.jpg'),
                       fit: BoxFit.cover,
                       colorFilter: ColorFilter.mode(
                         Colors.black.withValues(alpha: 0.5),
@@ -144,9 +142,7 @@ class MyApp extends StatelessWidget {
                 child: Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: NetworkImage(
-                        'https://i.ytimg.com/vi/sAzJrcryrDw/sddefault.jpg?v=614edb18',
-                      ),
+                      image: AssetImage('assets/backgrounds/gutie.jpg'),
                       fit: BoxFit.cover,
                       colorFilter: ColorFilter.mode(
                         Colors.black.withValues(alpha: 0.5),
@@ -256,7 +252,7 @@ class MyApp extends StatelessWidget {
                                 ),
                                 width: 300,
                                 height: 400,
-                                fit: BoxFit.fill,
+                                fit: BoxFit.cover,
                               ),
                             ),
                             Row(
@@ -273,8 +269,8 @@ class MyApp extends StatelessWidget {
                                   'assets/gutierrez/galapres.jpeg',
                                 ),
                                 width: 500,
-                                height: 400,
-                                fit: BoxFit.fill,
+                                height: 350,
+                                fit: BoxFit.cover,
                               ),
                             ),
                           ],
@@ -294,9 +290,7 @@ class MyApp extends StatelessWidget {
                 child: Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: NetworkImage(
-                        'https://i.scdn.co/image/ab67616d0000b2731aaed2d9bea791b5488e08a2',
-                      ),
+                      image: AssetImage('assets/backgrounds/imman.jpeg'),
                       fit: BoxFit.cover,
                       colorFilter: ColorFilter.mode(
                         Colors.black.withValues(alpha: 0.5),
@@ -399,8 +393,8 @@ class MyApp extends StatelessWidget {
                               child: Image(
                                 image: AssetImage('assets/emman/immanfave.jpg'),
                                 width: 400,
-                                height: 400,
-                                fit: BoxFit.fill,
+                                height: 370,
+                                fit: BoxFit.cover,
                               ),
                             ),
                             Row(
@@ -415,8 +409,8 @@ class MyApp extends StatelessWidget {
                               child: Image(
                                 image: AssetImage('assets/emman/immangala.jpg'),
                                 width: 400,
-                                height: 300,
-                                fit: BoxFit.fill,
+                                height: 270,
+                                fit: BoxFit.cover,
                               ),
                             ),
                           ],
@@ -436,10 +430,8 @@ class MyApp extends StatelessWidget {
                 child: Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: NetworkImage(
-                        'https://i.scdn.co/image/ab67616d0000b273ac9d6ee9be9186ff1a28c900',
-                      ),
-                      fit: BoxFit.cover,
+                      image: AssetImage('assets/backgrounds/zam.jpeg'),
+                      fit: BoxFit.fill,
                       colorFilter: ColorFilter.mode(
                         Colors.black.withValues(alpha: 0.5),
                         BlendMode.darken,
@@ -541,8 +533,8 @@ class MyApp extends StatelessWidget {
                               child: Image(
                                 image: AssetImage('assets/zam/zamfave.jpeg'),
                                 width: 400,
-                                height: 300,
-                                fit: BoxFit.fill,
+                                height: 270,
+                                fit: BoxFit.cover,
                               ),
                             ),
                             Row(
@@ -558,7 +550,7 @@ class MyApp extends StatelessWidget {
                                 image: AssetImage('assets/zam/zamgala.jpeg'),
                                 width: 300,
                                 height: 400,
-                                fit: BoxFit.fill,
+                                fit: BoxFit.cover,
                               ),
                             ),
                           ],
@@ -578,9 +570,7 @@ class MyApp extends StatelessWidget {
                 child: Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: NetworkImage(
-                        'https://kpopreviewed.com/wp-content/uploads/2022/05/woodz_ihateyou.jpg?w=1200&h=693&crop=1',
-                      ),
+                      image: AssetImage('assets/backgrounds/caasi.jpg'),
                       fit: BoxFit.cover,
                       colorFilter: ColorFilter.mode(
                         Colors.black.withValues(alpha: 0.5),
@@ -685,8 +675,8 @@ class MyApp extends StatelessWidget {
                                   'assets/caasi/caasifave.jpeg',
                                 ),
                                 width: 400,
-                                height: 300,
-                                fit: BoxFit.fill,
+                                height: 270,
+                                fit: BoxFit.cover,
                               ),
                             ),
                             Row(
@@ -702,9 +692,9 @@ class MyApp extends StatelessWidget {
                                 image: AssetImage(
                                   'assets/caasi/caasigala.jpeg',
                                 ),
-                                width: 500,
-                                height: 230,
-                                fit: BoxFit.fill,
+                                width: 400,
+                                height: 170,
+                                fit: BoxFit.cover,
                               ),
                             ),
                           ],

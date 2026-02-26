@@ -68,6 +68,11 @@ flutter:
   - assets/caasi/caasigala.jpeg
   - assets/zam/zamfave.jpeg
   - assets/zam/zamgala.jpeg
+  - assets/backgrounds/jensen.jpg
+  - assets/backgrounds/gutie.jpg
+  - assets/backgrounds/imman.jpeg
+  - assets/backgrounds/zam.jpeg
+  - assets/backgrounds/caasi.jpg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
